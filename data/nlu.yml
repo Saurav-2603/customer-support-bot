@@ -1,0 +1,154 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: network_issue
+  examples: |
+    - Actually, I gave a call regarding the network issues.
+    - I called regarding network issue
+    - I am facing the network issue
+
+- intent: my_name_is
+  examples: | 
+    - My name is [saurav](NAME)
+    - [praveen](NAME:praveen) this side
+    - It's [ashish](NAME:Ashish)
+    - [rohit](NAME:rohit) is my name
+    - you can call me [prajjwal](NAME)
+    - [abhinav](NAME)
+    - [Rahul](NAME)
+    - [mahi](NAME)
+    - [priyanka](NAME:priyanka)
+    - [shobha](NAME:shobha)
+
+- intent: facing_issue
+  examples: | 
+    - I am facing [network issues](NETWORK). Every time I give a call, there is a call drop after connection. Sometimes it also takes more than 2 minutes to connect a call.
+    - facing [network issues](NETWORK) every time I make a call. Sometime it takes a time longer than usual.
+
+- intent: headset
+  examples: | 
+    - I am using a [samsung](BRAND:samsung) phone.
+    - I have [One plus](BRAND) mobile
+    - I am using [one +](BRAND:One plus)
+    - I use [I-phone](BRAND)
+    - I prefer [i phone](BRAND:I-phone)
+    - i am using [one plus](BRAND:One plus) mobile
+    - i am using [sam sung](BRAND:samsung)
+    - i am using [oneplus](BRAND:One plus) mobile
+    - i am using [nokia](BRAND) mobile
+
+- intent: guide_me
+  examples: | 
+    - Could you please guide me?
+    - could you suggest me how to do that?
+    - guide me how to do it
+    - i don't know how to do it
+
+- intent: have_to_do
+  examples: | 
+    - What will I have to do to get a 4G SIM for the same number?
+    - What is the procedure to get the 4G SIM for the same number
+    - process to get the 4G SIM for the same number
+
+- intent: thanks
+  examples: | 
+    - Thank you so much!
+    - thanks
+    - tnx
+    - thank you so much
+    - thanks alot
+    - ty
+
+- intent: number
+  examples: | 
+    - [7](num:7)
+    - [seven](num:7)
